@@ -1,7 +1,7 @@
 name: scrape
 on:
   schedule:
-    - cron: '0 23 * * *' # Clock in at 7:00 CST everyday.
+    - cron: '0 23 * * *' # Clock in at 9:00 CST everyday.
   workflow_dispatch:
 jobs:
   scrape:
