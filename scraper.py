@@ -195,7 +195,7 @@ def wd_login(xuhao, mima):
             print(f"第{retries+1}次运行失败！\n")
 
             # retries == 19代表最后一次循环，如果这次循环仍然异常，则
-            if retries == 19:
+            if retries == 500:
                 notification = 1
 
     driver.quit()
